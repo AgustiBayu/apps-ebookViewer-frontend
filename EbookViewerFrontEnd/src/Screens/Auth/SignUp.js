@@ -23,11 +23,11 @@ export default function SignUp() {
             </View>
             <View style={myStyle.containerTextInput}>
                     <FontAwesome name="user" size={30} color="gray" />
-                    <TextInput style={myStyle.input} placeholder="Email" />
+                    <TextInput placeholder="Email" />
                 </View>
                 <View style={myStyle.containerTextInput}>
                     <FontAwesome name="lock" size={30} color="gray" />
-                    <TextInput style={myStyle.input} placeholder="Password" />
+                    <TextInput placeholder="Password" />
                 </View>
                 <View style={myStyle.containerButtonSumbit}>
                 <TouchableOpacity style={myStyle.buttonSubmit}>
